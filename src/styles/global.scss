@@ -6,15 +6,20 @@
 }
 
 :root {
+  --fontPrimary: 'Roboto', sans-serif;
+  --fontSecondary: 'Roboto Slab', serif;
+
+  --pinkOpacity: rgba(255, 133, 155, 0.05);
   --pink500:#FF859B;
 
   --white:#FFFFFF;
   --black:#000000;
   
-  --gray50:#E5E5E5;
+  --gray-50:#E5E5E5;
   --gray100:#F4EDE8;
   --gray200:#CAC4CF;
   --gray300:#948F99;
+  --gray350: #999591;
   --gray400:#3E3B47;
   --gray500:#312E38;
   --gray600:#262529;
@@ -24,7 +29,7 @@
 }
 
 html, body, input, textarea, select, button {
-  font: 400 1.6rem 'Roboto', sans-serif;
+  font: 400 1.6rem var(--fontPrimary);
 }
 
 body {
@@ -40,4 +45,8 @@ a {
 button, a {
   cursor: pointer;
   transition:  filter 0.2s;
+}
+
+button:hover, a:hover {
+  filter: brightness(0.9);
 }
