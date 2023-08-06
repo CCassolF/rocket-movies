@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+:root {
+  --pink500:#FF859B;
+
+  --white:#FFFFFF;
+  --black:#000000;
+  
+  --gray50:#E5E5E5;
+  --gray100:#F4EDE8;
+  --gray200:#CAC4CF;
+  --gray300:#948F99;
+  --gray400:#3E3B47;
+  --gray500:#312E38;
+  --gray600:#262529;
+  --gray700:#1C1B1E;
+
+  font-size: 62.5%;
+}
+
+html, body, input, textarea, select, button {
+  font: 400 1.6rem 'Roboto', sans-serif;
+}
+
+body {
+  background-color: var(--gray700);
+  color: var(--white);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, a {
+  cursor: pointer;
+  transition:  filter 0.2s;
+}
