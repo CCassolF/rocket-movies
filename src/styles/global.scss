@@ -15,7 +15,7 @@
   --white:#FFFFFF;
   --black:#000000;
   
-  --gray-50:#E5E5E5;
+  --gray50:#E5E5E5;
   --gray100:#F4EDE8;
   --gray200:#CAC4CF;
   --gray300:#948F99;
@@ -26,6 +26,20 @@
   --gray700:#1C1B1E;
 
   font-size: 62.5%;
+}
+
+::-webkit-scrollbar {
+  width: .8rem;
+}
+ 
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2.4rem;
+  background-color: var(--pink500);
+  height: 20px;
 }
 
 html, body, input, textarea, select, button {

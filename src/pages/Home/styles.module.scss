@@ -1,5 +1,113 @@
 .Container {
   width: 100%; 
   height: 100vh;
+  overflow: hidden;
 }
 
+.mainContainer {
+  margin-top: 5rem;
+  padding: 0 12.3rem;
+  
+
+  .headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      color: var(--white, #fff);
+      font-family: var(--fontSecondary);
+      font-size: 3.2rem;
+      font-weight: 400;
+    }
+
+    button {
+      display: flex;
+      align-items: center;
+      gap: .8rem;
+
+      padding: 1.2rem 3.2rem;
+      border: none;
+      border-radius: .8rem;
+      background: var(--pink500, #FF859B);
+
+      color: var(--gray700);
+      font-family: var(--fontSecondary);
+      font-size: 1.6rem;
+      font-weight: 400;
+
+      svg {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+.divContent {
+  margin-top: 5rem;
+  overflow-y: auto;
+
+  height: 71.6rem;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+
+
+  background-color: var(--pinkOpacity);
+  padding: 3.2rem;
+  border-radius: 1.6rem;
+
+  & + div {
+    margin-top: 2.4rem;
+  }
+
+  .headerContent {
+    h2{
+      color: var(--gray100, #F4EDE8);
+      font-family: var(--fontSecondary);
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+
+    div {
+      margin-top: .8rem;
+      display: flex;
+      gap: .6rem;
+
+      svg {
+        font-size: 1.2rem;
+        color: var(--pink500);
+        cursor: pointer;
+
+        &:hover {
+          fill: var(--pink500);
+        }
+      }
+    }
+  }
+
+  p {
+    color: var(--gray350, #999591);
+    font-family: var(--fontPrimary);
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  .mainContentTags {
+    display: flex;
+    gap: .8rem;
+
+    span {
+      padding: .6rem 1.6rem;
+      border-radius: 8px;
+      background: var(--gray500);
+
+      color: var(--gray50);
+      font-size: 1.2rem;
+      font-weight: 400;
+    }
+  }
+}

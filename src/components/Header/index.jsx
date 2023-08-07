@@ -5,7 +5,7 @@ export function Header() {
     <header className={styles.headerContainer}>
       <p>RocketMovies</p>
 
-      <input type="text" placeholder="Pesquisar pelo título" />
+      <input placeholder="Pesquisar pelo título" />
 
       <a href='#'>
         <div>
