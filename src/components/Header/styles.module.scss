@@ -18,25 +18,6 @@
     font-weight: 700;
   }
 
-  input {
-    width: 63rem;
-    height: 5.6rem;
-    padding: 2rem 2.4rem;
-  
-    border: none;
-    border-radius: 1rem;
-    background: var(--gray600, #262529);
-  
-    color: var(--white);
-    font-family: var(--fontSecondary);
-    font-size: 1.4rem;
-    font-weight: 400;
-  
-    &::placeholder {
-      color: var(--gray300, #948F99);
-    }
-  }
-
   a {
     display: flex;
     align-items: center;

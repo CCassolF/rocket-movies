@@ -1,3 +1,4 @@
+import { Input } from '../Input'
 import styles from './styles.module.scss'
 
 export function Header() {
@@ -5,7 +6,7 @@ export function Header() {
     <header className={styles.headerContainer}>
       <p>RocketMovies</p>
 
-      <input placeholder="Pesquisar pelo título" />
+      <Input placeholder="Pesquisar pelo título" />
 
       <a href='#'>
         <div>
