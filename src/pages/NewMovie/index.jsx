@@ -1,6 +1,7 @@
 import { FiArrowLeft } from 'react-icons/fi'
 import styles from './styles.module.scss'
 
+import { Button } from '../../components/Button'
 import { Header } from '../../components/Header'
 import { Input } from '../../components/Input'
 import { NoteItem } from '../../components/NoteItem'
@@ -36,10 +37,12 @@ export function NewMovie() {
             </div>
           </div>
 
-          <div>
-            buttons
+          <div className={styles.buttonContainer}>
+            <Button title='Excluir filme' />
+            <Button isNew='true' title='Salvar alterações' />
           </div>
         </div>
+
       </main>
     </div>
   )

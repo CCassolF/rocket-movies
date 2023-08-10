@@ -2,8 +2,6 @@ import { FiPlus, FiX } from "react-icons/fi";
 import styles from "./styles.module.scss";
 
 export function NoteItem({ isNew, value, onClick, ...rest}) {
-  console.log(isNew)
-
   return (
     <div 
       className={styles.Container}

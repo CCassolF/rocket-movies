@@ -1,0 +1,17 @@
+.Container {
+  width: 100%;
+  padding: 1.6rem;
+  border: none;
+  border-radius: 1rem;
+
+  color: var(--pink500);
+  font-family: var(--fontSecondary);
+  font-size: 16px;
+  font-weight: 500;
+  background: var(--gray800);
+
+  &[isnew='true'] {
+    background-color: var(--pink500);
+    color: var(--gray500);
+  }
+}

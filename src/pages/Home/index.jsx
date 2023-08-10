@@ -43,6 +43,81 @@ export function Home() {
               <span>Família</span>
             </div>
           </div>
+
+          <div className={styles.mainContent}>
+            <div className={styles.headerContent}>
+              <h2>Interstellar</h2>
+              <div>
+                <FiStar />
+                <FiStar />
+                <FiStar />
+                <FiStar />
+                <FiStar />
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Magnam, assumenda nisi, quos vero dolore obcaecati vitae, eum debitis reprehenderit amet autem omnis nam error architecto saepe. 
+              Magnam tempore vel in.
+            </p>
+
+            <div className={styles.mainContentTags}>
+              <span>Ficção Científica</span>
+              <span>Drama</span>
+              <span>Família</span>
+            </div>
+          </div>
+
+          <div className={styles.mainContent}>
+            <div className={styles.headerContent}>
+              <h2>Interstellar</h2>
+              <div>
+                <FiStar />
+                <FiStar />
+                <FiStar />
+                <FiStar />
+                <FiStar />
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Magnam, assumenda nisi, quos vero dolore obcaecati vitae, eum debitis reprehenderit amet autem omnis nam error architecto saepe. 
+              Magnam tempore vel in.
+            </p>
+
+            <div className={styles.mainContentTags}>
+              <span>Ficção Científica</span>
+              <span>Drama</span>
+              <span>Família</span>
+            </div>
+          </div>
+
+          <div className={styles.mainContent}>
+            <div className={styles.headerContent}>
+              <h2>Interstellar</h2>
+              <div>
+                <FiStar />
+                <FiStar />
+                <FiStar />
+                <FiStar />
+                <FiStar />
+              </div>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Magnam, assumenda nisi, quos vero dolore obcaecati vitae, eum debitis reprehenderit amet autem omnis nam error architecto saepe. 
+              Magnam tempore vel in.
+            </p>
+
+            <div className={styles.mainContentTags}>
+              <span>Ficção Científica</span>
+              <span>Drama</span>
+              <span>Família</span>
+            </div>
+          </div>
         </div>
       </main>
     </div>
