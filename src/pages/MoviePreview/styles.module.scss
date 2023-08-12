@@ -1,0 +1,112 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+}
+
+.mainContainer {
+  margin: 5rem 12.3rem;
+
+  a {
+    color: var(--pink500);
+    font-family: Roboto Slab;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+  }
+}
+
+.mainContent {
+  margin-top: 2.4rem;
+  overflow-y: scroll;
+
+  .mainHeader {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+    h1 {
+      color: var(--white, #F4EDE8);
+      font-family: Roboto Slab;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    div {
+      display: flex;
+      gap: 1rem;
+      margin-top: .8rem;
+
+      svg {
+        color: var(--pink500);
+        font-size: 2rem;
+        cursor: pointer;
+
+        &:hover {
+          fill: var(--pink500);
+        }
+      }
+    }
+  }
+
+  .mainCredentials {
+    margin-top: 2.4rem;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    color: #F4EDE8;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+    img {
+      width: 1.6rem;
+      height: 1.6rem;
+
+      border-radius: 3.5rem;
+      border: 1px solid #3E3B47;
+    }
+
+    svg {
+      color: var(--pink500);
+      font-size: 1.6rem;
+    }
+
+    p {
+      display: flex;
+      align-items: center;
+      gap: .4rem;
+    }
+  }
+
+  .mainTags {
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+
+    span {
+      padding: .8rem 1.6rem;
+      border-radius: 8px;
+      background: #282124;
+    }
+  }
+
+  .textContainer {
+    margin-top: 4rem;
+
+
+    p {
+      color: #F4EDE8;
+      text-align: justify;
+      font-family: Roboto Slab;
+      font-size: 1.6rem;
+      font-weight: 400;
+    }
+  }
+}
