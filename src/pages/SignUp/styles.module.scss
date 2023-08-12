@@ -1,0 +1,77 @@
+
+
+.Container {
+  width: 100%;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 63.7rem auto;
+
+  justify-items: center;
+
+  .signContainer {
+    width: 34.4rem;
+    margin-top: 23.5rem ;
+
+    h1 {
+      color: #FF859B;
+      font-family: Roboto Slab;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    span {
+      color: #CAC4CF;
+      font-family: Roboto Slab;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    p {
+      margin: 4.8rem 0;
+
+      color: var(--white, #F4EDE8);
+      font-family: Roboto Slab;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    div {
+      & + div {
+        margin-top: .8rem;
+      }
+
+      button {
+        margin-top: 2.4rem;
+      }
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .8rem;
+
+      margin-top: 4.2rem;
+      width: 100%;;
+      color: #FF859B;
+      font-family: Roboto Slab;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+
+  .bgContainer {
+    width: 100%;
+    background: url('../../assets/bg.png') no-repeat center center;
+    background-size: cover;
+  }
+}

@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { MoviePreview } from './pages/MoviePreview'
-
+import { SignUp } from './pages/SignUp'
 import './styles/global.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <MoviePreview />
+    <SignUp />
   </React.StrictMode>,
 )
